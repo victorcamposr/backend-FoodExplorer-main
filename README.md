@@ -16,18 +16,6 @@ Desenvolvimento de uma API que concentrará dados de usuários, pedidos e pratos
 </div>
 <br>
 
-# Detalhes sobre a arquitetura do projeto
-
-/src/ <br>
-
--   /server.js -> Responsável pela inicialização do projeto
--   /Routes/ -> Serão mantidas todas as rotas da aplicação
-    -   /index.js -> Centraliza as rotas da aplicação
-    -   /user.routes.js -> Possui só as rotas de users
--   /Controllers/ -> Será a parte que irá processar as requisições (local com a regra de negócio)
-    -   /UsersController.js
--   /Utils/ -> Local responsável pelas utilizadas e padronizações da aplicação
-
 ### Instalação
 
 ```bash
